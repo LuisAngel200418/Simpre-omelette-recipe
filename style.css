@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    background: #f7f7f7;
+}
+
+body, img, header, main, article, div, p, ul, li, ol, span, h1, h2, h3, table{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 4em;
+    color: #242424;
+}
+
+h2{
+    font-size: 2.4em;
+    color: #f9555f;
+    padding-bottom: 6px;
+}
+
+h3{
+    font-size: 2em;
+    color: #c43653;
+}
+
+p{
+    font-size: 1.8em;
+    color: #3f3f3f;
+}
+
+li, td{
+    font-size: 1.6em;
+    color: #3f3f3f;
+}
+
+tr :last-child{
+    color: #f9555f;
+}
+
+span{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container_div{
+    padding: 10px 40px;
+}
+
+.header-img{
+    height: 400px;
+    background-image: url('img/tacos.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.article_text{
+    padding: 20px 40px;
+    background-color: #f8d8da;
+    border-radius: 12px;
+}
+
+.article_text h3{
+    padding-bottom: 8px;
+}
+
+.article_ul-list{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.main_container:nth-child(2){
+    border-bottom: 1px solid #aaa;
+}
+.main_ingredientes, .main_instrucciones{
+    border-bottom: 1px solid #aaa;
+}
+
+.main_ingredientes, .main_nutricion, .main_instrucciones{
+    padding: 20px;
+}
+
+.main_ingredientes-list, .main_instrucciones-list li{
+    padding: 4px;
+}
+
+.nutricion_container-text{
+    padding: 6px;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    gap: 50px;
+}
+.nutricion_container-text:last-child{
+    border: none;
+}
+
+.nutricion_container-text p{
+    color: #3f3f3f;
+    font-size: 1.6em;
+    width: 30%;
+    font-weight: bold;
+}
+
+.nutricion_container-text p:last-child{
+    color: #f9555f;
+}
